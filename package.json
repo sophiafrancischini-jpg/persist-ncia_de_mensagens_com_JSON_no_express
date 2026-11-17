@@ -1,0 +1,16 @@
+{
+  "name": "sprint-04-persistencia-mensagens",
+  "version": "1.0.0",
+  "description": "Atividade prática Sprint 04 - Persistência de mensagens com JSON, fs/promises e Express",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "teste:json": "node experimento-json.js",
+    "teste:fs": "node teste-fs.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
